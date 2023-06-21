@@ -1,9 +1,9 @@
 env="dev"
 bastion_cidr = ["172.31.84.217/32"]
-default_vpc_id = "vpc-0b9a596dc579401da"
+default_vpc_id = "vpc-0e613ce0cfebefe42"
 default_vpc_cidr = "172.31.0.0/16"
-default_vpc_rtid = "rtb-06505c2979c80d74d"
-kms_arn = "arn:aws:kms:us-east-1:613746425282:key/1f80bac5-6524-490e-9721-957e104119be"
+default_vpc_rtid = "rtb-08e1f6030c84bc23d"
+kms_arn = "arn:aws:kms:us-east-1:083346358305:key/f47a8305-1229-455f-a1bd-0f925a772631"
 vpc = {
   main = {
      cidr_block = "10.0.0.0/16"
